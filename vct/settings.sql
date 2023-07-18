@@ -1,0 +1,3 @@
+CREATE DATABASE vct_app;
+CREATE USER vct_user WITH PASSWORD 'vct';
+GRANT ALL PRIVILEGES ON DATABASE vct_app TO vct_user;
